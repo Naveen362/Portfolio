@@ -1,25 +1,37 @@
 .navbar{
+    
+   position:sticky;
+   top:0px;
     display:flex;
     justify-content: space-between;
     align-items: center;
     margin:25px 130px;
+    backdrop-filter: blur(2px);
+
     
 }
 .navbar-icon{
     position:relative;
+    align-items: center;
+    
 }
-.navbar-icon h1{
+.navbar-icon>h1{
+    
     padding:0px 40px;
     font-size:50px;
     font-weight:700;
+    width:fit-content;
+    border:2px solid #B923E1;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 5px;
 }
-.navbar-icon img{
+.navbariconimg{
+    
     position:absolute;
-    width:70%;
-    right:0;
-    bottom:0;
-    width:50%;
-    z-index:-1;
+    
+    right:0px;
+    border:2px dotted white;
+
 }
 .nav-menu{
     display:flex;

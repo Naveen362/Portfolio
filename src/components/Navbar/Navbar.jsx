@@ -20,7 +20,7 @@ const Navbar = () => {
     <div className="navbar">
   <div className="navbar-icon">
     <h1>NAVEEN</h1>
-    <img src={logo} alt="Noting sirjlli"/>
+    {/* <img className="navbariconimg" src={logo} alt="Noting sirjlli"/> */}
   </div>
   <img src={menu_open} alt="" onClick={openmenu} className="nav-mob-open" />
      <ul ref={refer} className="nav-menu">
