@@ -91,4 +91,10 @@
     flex-direction:column-reverse;
     margin-bottom:60px;
 }
+.footer-top-right{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 }
