@@ -90,7 +90,7 @@
     .nav-mob-open{
         display:block;
         position:fixed;
-        right:30px;
+        right:10px;
         cursor:pointer;
     }
     .nav-mob-close{
@@ -114,6 +114,7 @@
         z-index:2;
         transition:right 0.5s;
         right:-350px;
+        
     }
     .nav-menu li{
         font-size:30px;
@@ -121,4 +122,5 @@
         flex-direction:row;
         gap:20px;
     }
+    
 }

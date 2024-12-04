@@ -32,7 +32,12 @@ const Hero = () => {
               <div className="resumeinto" onClick={()=>setState(0)}><h1>X</h1></div>
           </div>:null
       }
-     
+     <div className='icons'>
+      <p><a><i className='bi bi-facebook'></i></a></p>
+     <p> <a><i className='bi bi-whatsapp'></i></a></p>
+      <p><a><i className='bi bi-instagram'></i></a></p>
+      <p><a><i className='bi bi-github'></i></a></p>
+     </div>
     </div>
   )
 }
