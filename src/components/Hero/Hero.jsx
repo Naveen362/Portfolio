@@ -28,6 +28,8 @@ const Hero = () => {
             <img src={resumepic} alt="resume is going to interview"/>
             
               </div>
+
+             
               <div className="resumebtn" onClick={downloadresume}><button >Download</button></div>
               <div className="resumeinto" onClick={()=>setState(0)}><h1>X</h1></div>
           </div>:null
