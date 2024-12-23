@@ -11,10 +11,12 @@ const Navbar = () => {
 
   const refer=useRef();
   const openmenu=()=>{
-    refer.current.style.right="0px";
+    refer.current.style.top="42px";
   }
   const closemenu=()=>{
-    refer.current.style.right="-350px"
+
+    refer.current.style.top="-500px";
+  
   }
   return (
     <div className="navbar">
@@ -28,7 +30,7 @@ const Navbar = () => {
         <li><AnchorLink className="anchor-link" offset={50} href="#home"><p onClick={()=>setMenu("home")}>Home</p></AnchorLink>{menu==="home"?<img src={underline} alt="underline"/>:null}</li>
         <li><AnchorLink className="anchor-link" offset={50} href="#about"><p onClick={()=>setMenu("aboutme")}>About Me</p></AnchorLink>{menu==="aboutme"?<img src={underline} alt="underline"/>:null}</li>
         <li><AnchorLink className="anchor-link" offset={50} href="#"><p onClick={()=>setMenu("services")}>Services</p></AnchorLink>{menu==="services"?<img src={underline} alt="underline"/>:null}</li>
-        <li><AnchorLink className="anchor-link" offset={50} href="#portfolio"> <p onClick={()=>setMenu("portfolio")}>Portfolio</p></AnchorLink>{menu==="portfolio"?<img src={underline} alt="underline"/>:null}</li>
+        <li><AnchorLink className="anchor-link" offset={50} href="#portfolio"> <p onClick={()=>setMenu("portfolio")}>Projects</p></AnchorLink>{menu==="portfolio"?<img src={underline} alt="underline"/>:null}</li>
         <li><AnchorLink className="anchor-link" offset={50} href="#contact"><p onClick={()=>setMenu("contact")}>Contact</p></AnchorLink>{menu==="contact"?<img src={underline} alt="underline"/>:null}</li>
      </ul>
      <div className="nav-connect"><AnchorLink className="anchor-link" offset={50} href="#contact">Connect With Me</AnchorLink></div>

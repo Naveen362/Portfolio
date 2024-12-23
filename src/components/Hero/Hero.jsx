@@ -35,10 +35,10 @@ const Hero = () => {
           </div>:null
       }
      <div className='icons'>
-      <p><a><i className='bi bi-facebook'></i></a></p>
-     <p> <a><i className='bi bi-whatsapp'></i></a></p>
-      <p><a><i className='bi bi-instagram'></i></a></p>
-      <p><a><i className='bi bi-github'></i></a></p>
+      <p><a href='https://www.facebook.com/profile.php?id=100039486426780'target="_blank" ><i className='bi bi-facebook text-info text-decoration-none'></i></a></p>
+     <p> <a href="https://wa.me/918688856313" target="_blank"><i className='bi bi-whatsapp'></i></a></p>
+      <p><a href='https://www.instagram.com/naveen_kammela/' target="_blank"><i className='bi bi-instagram'></i></a></p>
+      <p><a href='https://github.com/Naveen362' target="_blank"><i className='bi bi-github'></i></a></p>
      </div>
     </div>
   )
